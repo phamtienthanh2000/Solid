@@ -15,7 +15,7 @@ public class Main {
 	}
 
 	private static void useRectangle(Rectangle rectangle) {
-		// tôi là rectangle 
+		// tôi là rectangle
 		//  khi ông set width và get width -> ông sẽ có width
 		//  khi ông set height và get height -> ông sẽ có height
 		// ông set như nào ông sẽ có như thế lúc lấy -> square vi phạm contract
