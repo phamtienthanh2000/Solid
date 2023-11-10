@@ -16,7 +16,7 @@ public interface PersistenceService<T extends Entity> {
 	
 	public T findById(Long id);
 
-	//
+	// vô nghĩa với lớp con -> cần tách ra cho vào thằng UserPersistenceService
 	
 	public List<T> findByName(String name);
 }
