@@ -16,6 +16,7 @@ public abstract class GameUnit implements Cloneable {
 	public GameUnit  clone() throws CloneNotSupportedException {
 		 // need to decide to shallow copy or deep copy of our state
 		GameUnit unit=(GameUnit) super.clone();
+		System.out.println("unit test "+unit);
 		unit.initialize();
 		return unit;
 	}
